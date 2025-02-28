@@ -12,31 +12,31 @@
 	<div>
 		<form>
 		<div>
-        <label for="First Name">First Name:</label>
-        <input type="text" id="first-name-input" name="first-name">
+        <label for="first-name-input">First Name:</label>
+        <input type="text" id="first-name-input" name="first-name-input">
         <div class="invalid-feedback">First Name is required</div>
       </div>
 
 		<div>
-        <label for="Last Name">Last Name:</label>
+        <label for="last-name-input">Last Name:</label>
         <input type="text" id="last-name-input">
         <div class="invalid-feedback">First Name is required</div>
       </div>
 
 		<div>
-        <label for="Email">Email Address</label>
+        <label for="email-input">Email Address</label>
         <input type="email" id="email-input" placeholder="xyz@abc.com">
         <div class="invalid-feedback">Email required</div>
       </div>
 
 		<div>
-        <label for="College Name">College Name</label>
+        <label for="college-input">College Name</label>
         <input type="text" id="college-input">
         <div class="invalid-feedback">Please provide a validCollege</div>
       </div>
 
 		<div class="form-group">
-        <label for="graduation-year">Graduation Year:</label>
+        <label for="grad-year-select">Graduation Year:</label>
         <select id="graduation-year">
           <option value="2020">2020</option>
           <option value="2021">2021</option>
@@ -46,17 +46,20 @@
       </div>
 
 			<div>
-				<label for="Roll No">Roll NO:</label>
+				<label for="roll-no-input">Roll NO:</label>
 				<input type="number" id="roll-no-input">
 				<div class="invalid-feedback">Pleaase provide a valid Roll no.</div>
 			</div>
 
 			<div>
-			<label for="Condition Checkbox">
+			<label for="conditions-checkbox">
           <input type="checkbox" id="conditions-checkbox">Agree to terms and conditions</label>
 			<div class="invalid-feedback">You must agree before submitting</div
 			</div>
-			
+
+			<div>
+        <button type="submit">Submit Form</button>
+      </div>
 		</form>
 	</div>
     <script type="text/javascript" src="./script.js">
